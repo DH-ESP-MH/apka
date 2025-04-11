@@ -1,0 +1,506 @@
+2025-04-10 22:41:55,825 - config - INFO - База даних успішно ініціалізована
+2025-04-10 22:41:55,825 - config - INFO - Ініціалізація даних бота
+2025-04-10 22:41:55,839 - config - INFO - База даних успішно ініціалізована
+2025-04-10 22:41:55,839 - config - INFO - Ініціалізація даних бота
+2025-04-10 22:41:55,916 - config - INFO - Запуск бота...
+2025-04-10 22:43:28,683 - config - INFO - База даних успішно ініціалізована
+2025-04-10 22:43:28,683 - config - INFO - Ініціалізація даних бота
+2025-04-10 22:43:28,685 - config - INFO - База даних успішно ініціалізована
+2025-04-10 22:43:28,685 - config - INFO - Ініціалізація даних бота
+2025-04-10 22:43:28,690 - config - INFO - Запуск бота...
+2025-04-10 22:44:37,263 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+2025-04-10 22:44:37,265 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\All\py\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\All\py\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\qw\Bot\handlers\user_handlers.py", line 112, in handle_text_buttons
+    handle_catalog(message)
+  File "d:\qw\Bot\handlers\user_handlers.py", line 75, in handle_catalog
+    bot.send_message(message.chat.id, "\U0001f4da *Оберіть категорію товарів:*", reply_markup=create_categories_keyboard(), parse_mode='Markdown')
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+
+2025-04-10 22:44:56,350 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+2025-04-10 22:44:56,351 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\All\py\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\All\py\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\qw\Bot\handlers\user_handlers.py", line 112, in handle_text_buttons
+    handle_catalog(message)
+  File "d:\qw\Bot\handlers\user_handlers.py", line 75, in handle_catalog
+    bot.send_message(message.chat.id, "\U0001f4da *Оберіть категорію товарів:*", reply_markup=create_categories_keyboard(), parse_mode='Markdown')
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+
+2025-04-10 22:44:57,604 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+2025-04-10 22:44:57,606 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\All\py\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\All\py\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\qw\Bot\handlers\user_handlers.py", line 112, in handle_text_buttons
+    handle_catalog(message)
+  File "d:\qw\Bot\handlers\user_handlers.py", line 75, in handle_catalog
+    bot.send_message(message.chat.id, "\U0001f4da *Оберіть категорію товарів:*", reply_markup=create_categories_keyboard(), parse_mode='Markdown')
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+
+2025-04-10 23:04:32,895 - config - INFO - База даних успішно ініціалізована
+2025-04-10 23:04:32,895 - config - INFO - Ініціалізація даних бота
+2025-04-10 23:04:32,900 - config - INFO - База даних успішно ініціалізована
+2025-04-10 23:04:32,900 - config - INFO - Ініціалізація даних бота
+2025-04-10 23:04:32,942 - config - INFO - Запуск бота...
+2025-04-10 23:04:33,412 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+2025-04-10 23:04:33,415 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\All\py\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\All\py\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\qw\Bot\handlers\user_handlers.py", line 112, in handle_text_buttons
+    handle_catalog(message)
+  File "d:\qw\Bot\handlers\user_handlers.py", line 75, in handle_catalog
+    bot.send_message(message.chat.id, "\U0001f4da *Оберіть категорію товарів:*", reply_markup=create_categories_keyboard(), parse_mode='Markdown')
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+
+2025-04-10 23:04:39,708 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+2025-04-10 23:04:39,710 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\All\py\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\All\py\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\qw\Bot\handlers\user_handlers.py", line 112, in handle_text_buttons
+    handle_catalog(message)
+  File "d:\qw\Bot\handlers\user_handlers.py", line 75, in handle_catalog
+    bot.send_message(message.chat.id, "\U0001f4da *Оберіть категорію товарів:*", reply_markup=create_categories_keyboard(), parse_mode='Markdown')
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+
+2025-04-10 23:24:34,606 - config - INFO - База даних успішно ініціалізована
+2025-04-10 23:24:34,606 - config - INFO - Ініціалізація даних бота
+2025-04-10 23:24:34,609 - config - INFO - База даних успішно ініціалізована
+2025-04-10 23:24:34,609 - config - INFO - Ініціалізація даних бота
+2025-04-10 23:24:34,639 - config - INFO - Запуск бота...
+2025-04-10 23:25:19,286 - config - INFO - Отримано новий відгук від користувача Захар
+2025-04-10 23:25:19,426 - config - ERROR - Не вдалося повідомити адміна 12345678: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+2025-04-10 23:25:19,479 - config - ERROR - Не вдалося повідомити адміна 87654321: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+2025-04-10 23:25:41,690 - config - INFO - Створено нове замовлення #1 від користувача Захар
+2025-04-10 23:25:41,811 - config - ERROR - Не вдалося повідомити адміна 12345678: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+2025-04-10 23:25:41,879 - config - ERROR - Не вдалося повідомити адміна 87654321: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+2025-04-10 23:29:37,030 - config - INFO - База даних успішно ініціалізована
+2025-04-10 23:29:37,030 - config - INFO - Ініціалізація даних бота
+2025-04-10 23:29:37,043 - config - INFO - База даних успішно ініціалізована
+2025-04-10 23:29:37,043 - config - INFO - Ініціалізація даних бота
+2025-04-10 23:29:37,058 - config - INFO - Запуск бота...
+2025-04-11 00:04:49,948 - config - INFO - Створено нове замовлення #2 від користувача Віктор
+2025-04-11 00:04:50,067 - config - ERROR - Не вдалося повідомити адміна 12345678: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+2025-04-11 00:04:50,130 - config - ERROR - Не вдалося повідомити адміна 87654321: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+2025-04-11 01:00:20,472 - config - INFO - Отримано новий відгук від користувача Віктор
+2025-04-11 01:00:20,623 - config - ERROR - Не вдалося повідомити адміна 12345678: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+2025-04-11 01:00:20,682 - config - ERROR - Не вдалося повідомити адміна 87654321: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+2025-04-11 01:45:17,310 - config - INFO - Створено нове замовлення #3 від користувача Yrik
+2025-04-11 01:45:17,435 - config - ERROR - Не вдалося повідомити адміна 12345678: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+2025-04-11 01:45:17,495 - config - ERROR - Не вдалося повідомити адміна 87654321: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: chat not found
+2025-04-11 01:54:21,161 - config - INFO - База даних успішно ініціалізована
+2025-04-11 01:54:21,161 - config - INFO - Ініціалізація даних бота
+2025-04-11 01:54:21,176 - config - INFO - База даних успішно ініціалізована
+2025-04-11 01:54:21,177 - config - INFO - Ініціалізація даних бота
+2025-04-11 01:54:21,272 - config - INFO - Запуск бота...
+2025-04-11 02:05:30,988 - config - INFO - База даних успішно ініціалізована
+2025-04-11 02:05:30,988 - config - INFO - Ініціалізація даних бота
+2025-04-11 02:05:31,003 - config - INFO - База даних успішно ініціалізована
+2025-04-11 02:05:31,003 - config - INFO - Ініціалізація даних бота
+2025-04-11 02:08:42,167 - config - INFO - База даних успішно ініціалізована
+2025-04-11 02:08:42,167 - config - INFO - Ініціалізація даних бота
+2025-04-11 02:08:42,181 - config - INFO - База даних успішно ініціалізована
+2025-04-11 02:08:42,181 - config - INFO - Ініціалізація даних бота
+2025-04-11 02:08:42,186 - config - INFO - Запуск бота...
+2025-04-11 02:43:58,483 - config - INFO - База даних успішно ініціалізована
+2025-04-11 02:43:58,483 - config - INFO - Ініціалізація даних бота
+2025-04-11 02:43:58,534 - config - INFO - Запуск бота...
+2025-04-11 02:47:20,527 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+2025-04-11 02:47:20,529 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\All\py\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\All\py\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\qw\Bot\handlers\admin_handlers.py", line 47, in handle_add_product_name
+    bot.send_message(message.chat.id, "\U0001f4c2 Оберіть категорію товару:", reply_markup=create_product_categories_admin_keyboard())
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+
+2025-04-11 02:49:34,092 - config - INFO - База даних успішно ініціалізована
+2025-04-11 02:49:34,093 - config - INFO - Ініціалізація даних бота
+2025-04-11 02:49:34,103 - config - INFO - Запуск бота...
+2025-04-11 03:00:15,332 - TeleBot - ERROR - Threaded polling exception: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+2025-04-11 03:00:15,334 - TeleBot - ERROR - Exception traceback:
+Traceback (most recent call last):
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 1235, in __threaded_polling
+    self.worker_pool.raise_exceptions()
+  File "C:\All\py\Lib\site-packages\telebot\util.py", line 150, in raise_exceptions
+    raise self.exception_info
+  File "C:\All\py\Lib\site-packages\telebot\util.py", line 93, in run
+    task(*args, **kwargs)
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 9233, in _run_middlewares_and_handler
+    result = handler['function'](message)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\qw\Bot\handlers\admin_handlers.py", line 47, in handle_add_product_name
+    user_states[user_id] = 'admin_adding_product_category'
+  File "C:\All\py\Lib\site-packages\telebot\__init__.py", line 1800, in send_message
+    apihelper.send_message(
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 275, in send_message
+    return _make_request(token, method_url, params=payload, method='post')
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 168, in _make_request
+    json_result = _check_result(method_name, result)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\All\py\Lib\site-packages\telebot\apihelper.py", line 195, in _check_result
+    raise ApiTelegramException(method_name, result, result_json)
+telebot.apihelper.ApiTelegramException: A request to the Telegram API was unsuccessful. Error code: 400. Description: Bad Request: BUTTON_DATA_INVALID
+
+2025-04-11 03:03:03,996 - config - INFO - База даних успішно ініціалізована
+2025-04-11 03:03:03,997 - config - INFO - Ініціалізація даних бота
+2025-04-11 03:03:04,049 - config - INFO - Запуск бота...
+2025-04-11 03:03:08,319 - config - ERROR - Помилка в головному циклі: create_admin_main_keyboard() takes 0 positional arguments but 1 was given
+2025-04-11 03:03:36,920 - config - INFO - База даних успішно ініціалізована
+2025-04-11 03:03:36,920 - config - INFO - Ініціалізація даних бота
+2025-04-11 03:03:36,928 - config - INFO - Запуск бота...
+2025-04-11 03:03:37,206 - config - ERROR - Помилка в головному циклі: create_admin_main_keyboard() takes 0 positional arguments but 1 was given
+2025-04-11 03:03:46,648 - config - INFO - База даних успішно ініціалізована
+2025-04-11 03:03:46,648 - config - INFO - Ініціалізація даних бота
+2025-04-11 03:03:46,655 - config - INFO - Запуск бота...
+2025-04-11 03:03:46,961 - config - ERROR - Помилка в головному циклі: create_admin_main_keyboard() takes 0 positional arguments but 1 was given
+2025-04-11 03:03:49,567 - config - INFO - База даних успішно ініціалізована
+2025-04-11 03:03:49,567 - config - INFO - Ініціалізація даних бота
+2025-04-11 03:03:49,573 - config - INFO - Запуск бота...
+2025-04-11 03:04:02,260 - config - INFO - База даних успішно ініціалізована
+2025-04-11 03:04:02,260 - config - INFO - Ініціалізація даних бота
+2025-04-11 03:04:02,267 - config - INFO - Запуск бота...
+2025-04-11 03:04:07,066 - config - ERROR - Помилка в головному циклі: create_admin_main_keyboard() takes 0 positional arguments but 1 was given
+2025-04-11 03:05:56,097 - config - INFO - База даних успішно ініціалізована
+2025-04-11 03:05:56,097 - config - INFO - Ініціалізація даних бота
+2025-04-11 03:05:56,103 - config - INFO - Запуск бота...
+2025-04-11 03:06:01,361 - config - ERROR - Помилка в головному циклі: create_admin_main_keyboard() takes 0 positional arguments but 1 was given
+2025-04-11 03:06:25,943 - config - INFO - База даних успішно ініціалізована
+2025-04-11 03:06:25,943 - config - INFO - Ініціалізація даних бота
+2025-04-11 03:06:25,949 - config - INFO - Запуск бота...
+2025-04-11 03:12:12,924 - config - INFO - bot.polling() завершився
+2025-04-11 03:12:12,924 - config - INFO - Програма завершує роботу
+2025-04-11 03:14:04,017 (StationeryBot) INFO - База даних успішно ініціалізована
+2025-04-11 03:14:04,018 (StationeryBot) INFO - Ініціалізація даних бота...
+2025-04-11 03:14:04,164 (StationeryBot) INFO - Бот успішно ініціалізований. Ім'я бота: Holub_project_bot
+2025-04-11 03:14:04,191 (StationeryBot) INFO - Запуск бота...
+2025-04-11 03:14:12,873 (StationeryBot) INFO - Команда /start отримана від 7123063710
+2025-04-11 03:14:12,879 (StationeryBot) ERROR - Помилка в головному циклі: create_admin_main_keyboard() takes 0 positional arguments but 1 was given
+2025-04-11 03:14:12,880 (StationeryBot) INFO - Програма завершує роботу
+2025-04-11 03:21:42,138 (StationeryBot) INFO - База даних успішно ініціалізована
+2025-04-11 03:21:42,138 (StationeryBot) INFO - Ініціалізація даних бота...
+2025-04-11 03:21:42,314 (StationeryBot) INFO - Бот успішно ініціалізований. Ім'я бота: Holub_project_bot
+2025-04-11 03:21:42,356 (StationeryBot) INFO - Запуск бота...
+2025-04-11 03:21:51,355 (StationeryBot) INFO - Команда /start отримана від 578941192
+2025-04-11 03:21:51,524 (StationeryBot) INFO - Відповідь на /start відправлена користувачу 578941192
+2025-04-11 03:21:54,893 (StationeryBot) INFO - Отримано текстове повідомлення від 578941192: hi
+2025-04-11 03:21:54,952 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 03:21:58,025 (StationeryBot) INFO - Отримано текстове повідомлення від 578941192: привіт
+2025-04-11 03:21:58,186 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 03:22:10,499 (StationeryBot) INFO - Команда /start отримана від 7123063710
+2025-04-11 03:22:10,612 (StationeryBot) INFO - Відповідь на /start відправлена користувачу 7123063710
+2025-04-11 03:22:18,491 (StationeryBot) ERROR - Помилка в головному циклі: invalid literal for int() with base 10: 'product'
+2025-04-11 03:22:18,491 (StationeryBot) INFO - Програма завершує роботу
+2025-04-11 03:27:00,483 (StationeryBot) INFO - База даних успішно ініціалізована
+2025-04-11 03:27:00,483 (StationeryBot) INFO - Ініціалізація даних бота...
+2025-04-11 03:27:00,628 (StationeryBot) INFO - Бот успішно ініціалізований. Ім'я бота: Holub_project_bot
+2025-04-11 03:27:00,652 (StationeryBot) INFO - Запуск бота...
+2025-04-11 03:27:00,878 (StationeryBot) INFO - Команда /catalog отримана від 7123063710
+2025-04-11 03:27:00,882 (StationeryBot) INFO - Команда /info отримана від 7123063710
+2025-04-11 03:27:01,029 (StationeryBot) INFO - Відповідь на /info відправлена користувачу 7123063710
+2025-04-11 03:27:01,030 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 03:27:01,034 (StationeryBot) INFO - Команда /order отримана від 7123063710
+2025-04-11 03:27:01,043 (StationeryBot) INFO - Відповідь на /catalog відправлена користувачу 7123063710
+2025-04-11 03:27:01,044 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 03:27:01,138 (StationeryBot) INFO - Відповідь на /order відправлена користувачу 7123063710
+2025-04-11 03:27:01,138 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 03:27:01,139 (StationeryBot) INFO - Отримано текстове повідомлення від 7123063710: рпав
+2025-04-11 03:27:01,199 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 03:28:14,205 (StationeryBot) INFO - Команда /info отримана від 7123063710
+2025-04-11 03:28:14,280 (StationeryBot) INFO - Відповідь на /info відправлена користувачу 7123063710
+2025-04-11 03:28:14,282 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 03:31:46,540 (StationeryBot) INFO - Команда /info отримана від 7123063710
+2025-04-11 03:31:46,600 (StationeryBot) INFO - Відповідь на /info відправлена користувачу 7123063710
+2025-04-11 03:31:46,601 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 03:31:49,736 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 03:43:12,111 (StationeryBot) INFO - Команда /start отримана від 7123063710
+2025-04-11 03:43:12,295 (StationeryBot) INFO - Відповідь на /start відправлена користувачу 7123063710
+2025-04-11 03:43:16,004 (StationeryBot) INFO - Команда /info отримана від 7123063710
+2025-04-11 03:43:16,142 (StationeryBot) INFO - Відповідь на /info відправлена користувачу 7123063710
+2025-04-11 03:43:16,143 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 03:43:18,296 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 03:43:54,522 (StationeryBot) INFO - Команда /start отримана від 578941192
+2025-04-11 03:43:54,581 (StationeryBot) INFO - Відповідь на /start відправлена користувачу 578941192
+2025-04-11 03:43:59,680 (StationeryBot) INFO - Команда /catalog отримана від 578941192
+2025-04-11 03:43:59,740 (StationeryBot) INFO - Відповідь на /catalog відправлена користувачу 578941192
+2025-04-11 03:43:59,741 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 03:44:26,774 (StationeryBot) INFO - Команда /help отримана від 578941192
+2025-04-11 03:44:26,846 (StationeryBot) INFO - Відповідь на /help відправлена користувачу 578941192
+2025-04-11 03:44:26,847 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 03:45:03,950 (StationeryBot) INFO - Команда /order отримана від 578941192
+2025-04-11 03:45:04,018 (StationeryBot) INFO - Відповідь на /order відправлена користувачу 578941192
+2025-04-11 03:45:04,019 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 03:45:15,759 (StationeryBot) INFO - Створено нове замовлення #4 від користувача Захар
+2025-04-11 03:48:06,091 (StationeryBot) INFO - Команда /feedback отримана від 7123063710
+2025-04-11 03:48:06,152 (StationeryBot) INFO - Відповідь на /feedback відправлена користувачу 7123063710
+2025-04-11 03:48:08,791 (StationeryBot) INFO - Отримано відгук від 7123063710
+2025-04-11 03:48:08,801 (StationeryBot) INFO - Отримано новий відгук від користувача Amon
+2025-04-11 03:48:08,927 (StationeryBot) INFO - Відгук від 7123063710 оброблено
+2025-04-11 03:59:08,022 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 04:09:22,238 (StationeryBot) INFO - Команда /start отримана від 578941192
+2025-04-11 04:09:22,394 (StationeryBot) INFO - Відповідь на /start відправлена користувачу 578941192
+2025-04-11 04:09:25,775 (StationeryBot) INFO - Команда /info отримана від 578941192
+2025-04-11 04:09:25,855 (StationeryBot) INFO - Відповідь на /info відправлена користувачу 578941192
+2025-04-11 04:09:25,857 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 04:09:29,605 (StationeryBot) INFO - Отримано текстове повідомлення від 578941192: привіт
+2025-04-11 04:09:29,935 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 04:10:24,121 (StationeryBot) INFO - Команда /catalog отримана від 578941192
+2025-04-11 04:10:24,200 (StationeryBot) INFO - Відповідь на /catalog відправлена користувачу 578941192
+2025-04-11 04:10:24,200 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 04:11:03,543 (StationeryBot) INFO - Створено нове замовлення #5 від користувача Захар
+2025-04-11 04:15:07,971 (StationeryBot) INFO - Команда /help отримана від 578941192
+2025-04-11 04:15:08,037 (StationeryBot) INFO - Відповідь на /help відправлена користувачу 578941192
+2025-04-11 04:15:08,037 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 04:15:12,169 (StationeryBot) INFO - Команда /feedback отримана від 578941192
+2025-04-11 04:15:12,236 (StationeryBot) INFO - Відповідь на /feedback відправлена користувачу 578941192
+2025-04-11 04:15:15,871 (StationeryBot) INFO - Отримано відгук від 578941192
+2025-04-11 04:15:15,882 (StationeryBot) INFO - Отримано новий відгук від користувача Захар
+2025-04-11 04:15:16,016 (StationeryBot) INFO - Відгук від 578941192 оброблено
+2025-04-11 04:15:24,752 (StationeryBot) INFO - Команда /help отримана від 578941192
+2025-04-11 04:15:24,811 (StationeryBot) INFO - Відповідь на /help відправлена користувачу 578941192
+2025-04-11 04:19:08,435 (StationeryBot) INFO - Команда /start отримана від 7123063710
+2025-04-11 04:19:08,505 (StationeryBot) INFO - Відповідь на /start відправлена користувачу 7123063710
+2025-04-11 04:19:15,920 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 04:20:10,372 (StationeryBot) INFO - Додано новий продукт: Ручка
+2025-04-11 04:22:08,358 (StationeryBot) INFO - Команда /help отримана від 7123063710
+2025-04-11 04:22:08,438 (StationeryBot) INFO - Відповідь на /help відправлена користувачу 7123063710
+2025-04-11 04:23:59,971 (StationeryBot) INFO - Видалено продукт з ID: 9
+2025-04-11 04:30:48,799 (StationeryBot) INFO - Команда /start отримана від 7123063710
+2025-04-11 04:30:48,970 (StationeryBot) INFO - Відповідь на /start відправлена користувачу 7123063710
+2025-04-11 04:30:56,667 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 04:40:07,530 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 04:40:39,711 (StationeryBot) INFO - bot.polling() завершився
+2025-04-11 04:40:39,712 (StationeryBot) INFO - Програма завершує роботу
+2025-04-11 04:40:42,286 (StationeryBot) INFO - База даних успішно ініціалізована
+2025-04-11 04:40:42,286 (StationeryBot) INFO - Ініціалізація даних бота...
+2025-04-11 04:40:42,404 (StationeryBot) INFO - Бот успішно ініціалізований. Ім'я бота: Holub_project_bot
+2025-04-11 04:40:42,447 (StationeryBot) INFO - Запуск бота...
+2025-04-11 04:40:47,649 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 04:40:48,902 (StationeryBot) INFO - Callback admin_stats викликано від 7123063710
+2025-04-11 04:40:48,902 (StationeryBot) INFO - Команда /stats отримана від 8178011882
+2025-04-11 04:54:19,929 (StationeryBot) INFO - bot.polling() завершився
+2025-04-11 04:54:19,931 (StationeryBot) INFO - Програма завершує роботу
+2025-04-11 04:54:22,439 (StationeryBot) INFO - База даних успішно ініціалізована
+2025-04-11 04:54:22,440 (StationeryBot) INFO - Ініціалізація даних бота...
+2025-04-11 04:54:22,613 (StationeryBot) INFO - Бот успішно ініціалізований. Ім'я бота: Holub_project_bot
+2025-04-11 04:54:22,650 (StationeryBot) INFO - Запуск бота...
+2025-04-11 04:54:26,501 (StationeryBot) INFO - Callback admin_stats викликано від 7123063710
+2025-04-11 04:54:26,502 (StationeryBot) INFO - Команда /stats отримана від 8178011882
+2025-04-11 04:55:07,270 (StationeryBot) INFO - Callback admin_view_orders викликано від 7123063710
+2025-04-11 04:57:41,040 (StationeryBot) INFO - Callback admin_stats викликано від 7123063710
+2025-04-11 04:57:41,041 (StationeryBot) INFO - Команда /stats отримана від 8178011882
+2025-04-11 04:58:53,629 (StationeryBot) INFO - Callback admin_stats викликано від 7123063710
+2025-04-11 04:58:53,630 (StationeryBot) INFO - Команда /stats отримана від 8178011882
+2025-04-11 04:58:56,119 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 04:58:57,140 (StationeryBot) INFO - Callback admin_stats викликано від 7123063710
+2025-04-11 04:58:57,142 (StationeryBot) INFO - Команда /stats отримана від 8178011882
+2025-04-11 04:59:15,199 (StationeryBot) INFO - bot.polling() завершився
+2025-04-11 04:59:15,199 (StationeryBot) INFO - Програма завершує роботу
+2025-04-11 04:59:16,262 (StationeryBot) INFO - База даних успішно ініціалізована
+2025-04-11 04:59:16,262 (StationeryBot) INFO - Ініціалізація даних бота...
+2025-04-11 04:59:16,399 (StationeryBot) INFO - Бот успішно ініціалізований. Ім'я бота: Holub_project_bot
+2025-04-11 04:59:16,440 (StationeryBot) INFO - Запуск бота...
+2025-04-11 04:59:19,978 (StationeryBot) INFO - Команда /stats отримана від 7123063710
+2025-04-11 04:59:53,780 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 05:23:07,521 (StationeryBot) INFO - Отримано текстове повідомлення від 578941192: каталог
+2025-04-11 05:23:07,661 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 05:23:29,476 (StationeryBot) INFO - Отримано текстове повідомлення від 578941192: каталог
+2025-04-11 05:23:29,536 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 05:23:39,937 (StationeryBot) INFO - Команда /catalog отримана від 578941192
+2025-04-11 05:23:40,096 (StationeryBot) INFO - Відповідь на /catalog відправлена користувачу 578941192
+2025-04-11 05:23:40,097 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 05:24:17,992 (StationeryBot) INFO - bot.polling() завершився
+2025-04-11 05:24:17,993 (StationeryBot) INFO - Програма завершує роботу
+2025-04-11 05:24:20,721 (StationeryBot) INFO - База даних успішно ініціалізована
+2025-04-11 05:24:20,721 (StationeryBot) INFO - Ініціалізація даних бота...
+2025-04-11 05:24:20,896 (StationeryBot) INFO - Бот успішно ініціалізований. Ім'я бота: Holub_project_bot
+2025-04-11 05:24:20,940 (StationeryBot) INFO - Запуск бота...
+2025-04-11 05:24:28,992 (StationeryBot) INFO - Отримано текстове повідомлення від 578941192: каталог
+2025-04-11 05:24:28,994 (StationeryBot) INFO - Команда /catalog отримана від 578941192
+2025-04-11 05:24:29,188 (StationeryBot) INFO - Відповідь на /catalog відправлена користувачу 578941192
+2025-04-11 05:24:29,188 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 05:26:01,248 (StationeryBot) INFO - bot.polling() завершився
+2025-04-11 05:26:01,249 (StationeryBot) INFO - Програма завершує роботу
+2025-04-11 05:26:03,953 (StationeryBot) INFO - База даних успішно ініціалізована
+2025-04-11 05:26:03,953 (StationeryBot) INFO - Ініціалізація даних бота...
+2025-04-11 05:26:04,114 (StationeryBot) INFO - Бот успішно ініціалізований. Ім'я бота: Holub_project_bot
+2025-04-11 05:26:04,140 (StationeryBot) INFO - Запуск бота...
+2025-04-11 05:26:18,475 (StationeryBot) INFO - Отримано текстове повідомлення від 578941192: каталог
+2025-04-11 05:26:18,477 (StationeryBot) INFO - Команда /catalog отримана від 578941192
+2025-04-11 05:26:18,620 (StationeryBot) INFO - Відповідь на /catalog відправлена користувачу 578941192
+2025-04-11 05:26:18,620 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 05:27:33,648 (StationeryBot) INFO - bot.polling() завершився
+2025-04-11 05:27:33,648 (StationeryBot) INFO - Програма завершує роботу
+2025-04-11 05:27:36,556 (StationeryBot) INFO - База даних успішно ініціалізована
+2025-04-11 05:27:36,556 (StationeryBot) INFO - Ініціалізація даних бота...
+2025-04-11 05:27:36,695 (StationeryBot) INFO - Бот успішно ініціалізований. Ім'я бота: Holub_project_bot
+2025-04-11 05:27:36,721 (StationeryBot) INFO - Запуск бота...
+2025-04-11 05:27:45,898 (StationeryBot) INFO - Отримано текстове повідомлення від 578941192: допомога
+2025-04-11 05:27:45,900 (StationeryBot) INFO - Команда /help отримана від 578941192
+2025-04-11 05:27:46,070 (StationeryBot) INFO - Відповідь на /help відправлена користувачу 578941192
+2025-04-11 05:27:46,070 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 05:30:35,275 (StationeryBot) INFO - bot.polling() завершився
+2025-04-11 05:30:35,275 (StationeryBot) INFO - Програма завершує роботу
+2025-04-11 05:30:37,941 (StationeryBot) INFO - База даних успішно ініціалізована
+2025-04-11 05:30:37,941 (StationeryBot) INFO - Ініціалізація даних бота...
+2025-04-11 05:30:38,086 (StationeryBot) INFO - Бот успішно ініціалізований. Ім'я бота: Holub_project_bot
+2025-04-11 05:30:38,110 (StationeryBot) INFO - Запуск бота...
+2025-04-11 05:30:41,785 (StationeryBot) INFO - Отримано текстове повідомлення від 578941192: цына
+2025-04-11 05:30:41,941 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 05:30:45,144 (StationeryBot) INFO - Отримано текстове повідомлення від 578941192: ціна
+2025-04-11 05:30:45,205 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 05:30:52,897 (StationeryBot) INFO - Отримано текстове повідомлення від 578941192: інфа
+2025-04-11 05:30:52,898 (StationeryBot) INFO - Команда /info отримана від 578941192
+2025-04-11 05:30:53,065 (StationeryBot) INFO - Відповідь на /info відправлена користувачу 578941192
+2025-04-11 05:30:53,065 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 05:31:00,037 (StationeryBot) INFO - Отримано текстове повідомлення від 578941192: каталог
+2025-04-11 05:31:00,038 (StationeryBot) INFO - Команда /catalog отримана від 578941192
+2025-04-11 05:31:00,144 (StationeryBot) INFO - Відповідь на /catalog відправлена користувачу 578941192
+2025-04-11 05:31:00,144 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 05:31:27,611 (StationeryBot) INFO - Отримано текстове повідомлення від 578941192: привіт
+2025-04-11 05:31:27,685 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 05:32:36,030 (StationeryBot) INFO - Команда /catalog отримана від 578941192
+2025-04-11 05:32:36,116 (StationeryBot) INFO - Відповідь на /catalog відправлена користувачу 578941192
+2025-04-11 05:32:36,117 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 05:32:40,056 (StationeryBot) INFO - Команда /order отримана від 578941192
+2025-04-11 05:32:40,135 (StationeryBot) INFO - Відповідь на /order відправлена користувачу 578941192
+2025-04-11 05:32:40,135 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 05:32:56,943 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 05:33:01,591 (StationeryBot) INFO - Команда /order отримана від 7123063710
+2025-04-11 05:33:01,654 (StationeryBot) INFO - Відповідь на /order відправлена користувачу 7123063710
+2025-04-11 05:33:01,655 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 05:33:22,083 (StationeryBot) INFO - Команда /help отримана від 7123063710
+2025-04-11 05:33:22,147 (StationeryBot) INFO - Відповідь на /help відправлена користувачу 7123063710
+2025-04-11 05:33:22,147 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 05:33:24,035 (StationeryBot) INFO - Команда /info отримана від 7123063710
+2025-04-11 05:33:24,104 (StationeryBot) INFO - Відповідь на /info відправлена користувачу 7123063710
+2025-04-11 05:33:24,116 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 05:33:44,071 (StationeryBot) INFO - bot.polling() завершився
+2025-04-11 05:33:44,071 (StationeryBot) INFO - Програма завершує роботу
+2025-04-11 05:33:44,984 (StationeryBot) INFO - База даних успішно ініціалізована
+2025-04-11 05:33:44,984 (StationeryBot) INFO - Ініціалізація даних бота...
+2025-04-11 05:33:45,137 (StationeryBot) INFO - Бот успішно ініціалізований. Ім'я бота: Holub_project_bot
+2025-04-11 05:33:45,166 (StationeryBot) INFO - Запуск бота...
+2025-04-11 05:33:48,991 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 7123063710
+2025-04-11 05:33:52,718 (StationeryBot) INFO - Команда /stats отримана від 7123063710
+2025-04-11 05:33:59,817 (StationeryBot) INFO - Команда /stats отримана від 7123063710
+2025-04-11 05:37:49,384 (StationeryBot) INFO - bot.polling() завершився
+2025-04-11 05:37:49,384 (StationeryBot) INFO - Програма завершує роботу
+2025-04-11 06:01:00,537 (StationeryBot) INFO - База даних успішно ініціалізована
+2025-04-11 06:01:00,538 (StationeryBot) INFO - Ініціалізація даних бота...
+2025-04-11 06:01:00,701 (StationeryBot) INFO - Бот успішно ініціалізований. Ім'я бота: Holub_project_bot
+2025-04-11 06:01:00,712 (StationeryBot) INFO - Запуск бота...
+2025-04-11 06:01:04,821 (StationeryBot) INFO - Команда /catalog отримана від 578941192
+2025-04-11 06:01:04,987 (StationeryBot) INFO - Відповідь на /catalog відправлена користувачу 578941192
+2025-04-11 06:01:04,988 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
+2025-04-11 06:01:10,059 (StationeryBot) INFO - Команда /help отримана від 578941192
+2025-04-11 06:01:10,211 (StationeryBot) INFO - Відповідь на /help відправлена користувачу 578941192
+2025-04-11 06:01:10,211 (StationeryBot) INFO - Відповідь на текстове повідомлення відправлена користувачу 578941192
